@@ -1,11 +1,13 @@
 <template>
     <div>
-        hello, world!
+        
     </div>
 </template>
 
 
 <script>
+
+import sidebarComponent from "./sidebarComponent.vue"
 
 export default {
     data: function () {
@@ -18,6 +20,9 @@ export default {
     },
     methods: {
 
+    },
+    components : {
+        "sidebarComponent" : sidebarComponent
     }
 }
 

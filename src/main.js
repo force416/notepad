@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-default/index.css'
 
 import router from "./router/router.js";
 import AppComponent from './component/app.vue';
